@@ -5,10 +5,14 @@
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
     border-radius: 10px;
+    padding-bottom: 3rem;
+}
+
+hr {
+    width: 40%;
 }
 
 .App-title {
-    border-bottom: 1px solid grey;
     padding: 2rem;
     font-size: 2rem;
 }
@@ -21,4 +25,29 @@
     font-size: 18px;
     width: 30%;
     padding: 0.4rem 1rem;
+}
+.App-button {
+    margin-left: 1rem;
+    padding: 0.4rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.App-ul {
+    list-style: none;
+}
+
+.App-todo-li {
+    padding: 1.4rem;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.App-todo-button {
+    display: block;
+    margin: 0.3rem auto;
+    font-family: "Montserrat", sans-serif;
 }

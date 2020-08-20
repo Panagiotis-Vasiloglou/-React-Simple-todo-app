@@ -27,6 +27,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <h2 className="App-title">My todo list</h2>
+                <hr></hr>
                 <form className="App-form" onSubmit={(e) => e.preventDefault()}>
                     <input
                         className="App-input"
@@ -48,10 +49,11 @@ class App extends React.Component {
                 <ul className="App-ul">
                     {this.state.list.map((todo) => (
                         <div className="App-todo" key={Math.random()}>
-                            <li>
+                            <li className="App-todo-li">
                                 <div>
                                     {todo}
                                     <button
+                                        className="App-todo-button"
                                         onClick={() => {
                                             const list = this.state.list;
                                             const index = this.state.list.indexOf(
